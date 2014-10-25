@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         messageLabel.textColor=UIColor.redColor()
         
         enterMessageTextField.text = ""
+        //Close the Keyboard.
         enterMessageTextField.resignFirstResponder()
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
